@@ -435,6 +435,7 @@ function shouldRedirectUrl(url) {
 
 function redirecttubeOpenInFreeTube(src) {
     let newUrl = "freetube://" + src;
+    window.location = "https://www.youtube.com";
     window.open(newUrl, "_blank");
 }
 
